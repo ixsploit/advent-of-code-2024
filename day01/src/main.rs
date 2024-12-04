@@ -98,7 +98,7 @@ fn main() {
             println!("Scores calculated successfully.");
         }
         Err(e) => {
-            eprintln!("Failed to calculate scores: {}", e)
+            eprintln!("Failed to calculate scores: {}", e);
         }
     }
 }
